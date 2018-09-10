@@ -5,4 +5,9 @@ class Api::SpeakersController < ApplicationController
   render "index.json.jbuilder"
 
 end
+
+def speaker_method
+  @speaker = Speaker.first
+   render "one_speaker.json.jbuilder"
+end
 end
