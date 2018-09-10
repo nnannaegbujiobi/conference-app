@@ -1,1 +1,0 @@
-json.meetings @conferences.meetings

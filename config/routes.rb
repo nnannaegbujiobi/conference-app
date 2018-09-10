@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
 namespace :api do
 
-# get "/meeting_url" => "meetings#meeitng_methond"
+get "/meeting_url" => "meetings#index"
 # get "/first_meeting_url" "meetings#first_meeting_method"
 
 
