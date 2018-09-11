@@ -16,7 +16,7 @@ get "/speakers_url" => "speakers#speaker_method"
 get"speakers_url/:speaker" => "speakers#speaker_method"
 
 
-# get
+
 
 
 
